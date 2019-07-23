@@ -20,6 +20,7 @@ public class MyController {
     @ResponseBody
     public String upload(@RequestParam("file") MultipartFile file){//文件上传 添加依赖 在配置文件中添加文件上传解析器
        // System.out.println("dddddd");
+        System.out.println("dddddd");
         try {
             //1.得到上传文件的名字
             String filename = file.getOriginalFilename();
