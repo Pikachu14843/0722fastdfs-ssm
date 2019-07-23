@@ -17,6 +17,8 @@ public class TestMapper {
 
     @Test
     public void test(){
+        //分支下开发
+        System.out.println("zrn分支的第一次修改");
         HouseInfo info=new HouseInfo();
         info.setTitle("蘑菇屋");
         info.setPrice(7800);
